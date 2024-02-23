@@ -9,4 +9,9 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "echasnovski/mini.cursorword",
+    version = false,
+    opts = {},
+  },
 }

@@ -82,6 +82,8 @@ return {
       v = {
         ["<"] = { "<gv", desc = "Indent left" },
         [">"] = { ">gv", desc = "Indent right" },
+        ["<Leader>y"] = { "\"*y", desc = "Yank to system clipboard" },
+        ["<Leader>p"] = { "\"*p", desc = "Paste from system clipboard" },
       },
     },
   },
